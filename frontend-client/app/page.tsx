@@ -547,7 +547,7 @@ export default function AINativePortfolioDashboard() {
           )}
 
           {/* STEP 6: RENDERING WORK HISTORY TIMELINE CARDS ONLY IN EXPERIENCE TAB */}
-          {activeSection === "experience" && (
+          {activeSection === "experiences" && (
             <div className="flex flex-col gap-4">
               {experienceMockDatabase.map((work) => (
                 <div key={work.id} className="p-5 bg-slate-950/60 border border-slate-800 rounded-xl flex flex-col gap-3 shadow-md">
