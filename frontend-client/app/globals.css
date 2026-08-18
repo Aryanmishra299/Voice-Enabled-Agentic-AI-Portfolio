@@ -1,0 +1,19 @@
+/* Standard stable core layout mapping directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #020617; /* Matches bg-slate-950 color parameters */
+    color: #f8fafc;            /* Matches text-slate-100 color parameters */
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom terminal scanning glow styling */
+.terminal-glow {
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.08);
+}

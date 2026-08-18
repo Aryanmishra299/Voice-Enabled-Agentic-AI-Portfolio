@@ -1,0 +1,23 @@
+{
+  "skills_catalog": {
+    "programming_and_databases": [
+      { "name": "Core Languages", "tools": ["Python", "Java"] },
+      { "name": "Relational Data Processing", "tools": ["SQL"] }
+    ],
+    "ai_and_machine_learning": [
+      { "name": "LLM Orchestration", "tools": ["LangChain", "Vercel AI SDK", "Ollama"] },
+      { "name": "Generative AI & NLP Core", "tools": ["LLMs", "RAG", "Prompt Engineering"] },
+      { "name": "Classical ML & Pipelines", "tools": ["Scikit-Learn", "NumPy", "Pandas", "Matplotlib"] },
+      { "name": "Computer Vision & OCR Engine Architecture", "tools": ["OpenCV", "PaddleOCR", "LayoutParser"] },
+      { "name": "Deep Learning & Localization", "tools": ["TensorFlow", "PyTorch (Working Knowledge)", "YOLO"] }
+    ],
+    "backend_and_automation": [
+      { "name": "API Engineering", "tools": ["FastAPI (Working Knowledge)", "REST APIs", "Uvicorn", "Pydantic"] },
+      { "name": "Data Validation Structures", "tools": ["TypeScript", "Zod", "JSON Schemas"] }
+    ],
+    "mlops_and_infrastructure": [
+      { "name": "Containerization & Cloud Architectures", "tools": ["Docker", "Vercel Edge Platform", "AZURE", "AWS"] },
+      { "name": "Development Toolchain", "tools": ["Git", "GitHub", "Jupyter Notebook", "VS Code"] }
+    ]
+  }
+}

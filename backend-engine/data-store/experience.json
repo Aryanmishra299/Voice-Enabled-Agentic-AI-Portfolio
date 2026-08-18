@@ -1,0 +1,68 @@
+{
+  "professional_experience": [
+    {
+      "id": "tamar-software",
+      "organization": "Tamar Software",
+      "role": "AI Engineer",
+      "timeline": "June 2026 - Present",
+      "responsibilities": [
+        "Architected a production-ready, open-source OCR engine optimized for high-throughput computational workflows.",
+        "Integrated AI API endpoints directly into distributed frontend and backend system architectures.",
+        "Developed conversational AI products including custom state-management logic for intelligent chatbots.",
+        "Mentored junior engineers on learning deployment pipelines and production lifecycles."
+      ],
+      "technologies": ["Python", "OCR Pipelines", "API Integration", "State Management Chatbots"]
+    },
+    {
+      "id": "niit-associate",
+      "organization": "NIIT",
+      "role": "Associate",
+      "timeline": "Jan 2026 - April 2026",
+      "location": "Lucknow, Uttar Pradesh",
+      "responsibilities": [
+        "Processed structured datasets by building parsing scripts and managing data integrity.",
+        "Designed data workflows to automate user requirement analysis and data processing.",
+        "Resolved technical bottlenecks through algorithmic problem-solving and debugging complex datasets."
+      ],
+      "technologies": ["Python Data Parsing Scripts", "Data Workflow Automations", "Algorithmic Debugging"]
+    },
+    {
+      "id": "freelance-contractor",
+      "organization": "Self-Initiated Technical Contractor & Freelance System Engineer",
+      "role": "AI Engineer",
+      "timeline": "Sept 2025 - Feb 2026",
+      "responsibilities": [
+        "Built and optimized production AI pipelines for automated document processing and scalable data extraction tasks.",
+        "Designed OCR systems capable of handling heavily noisy, low-resolution, and multi-format document inputs.",
+        "Improved text extraction accuracy by 25-30% on noisy layouts by designing custom image preprocessing sub-routines."
+      ],
+      "technologies": ["Production AI Extraction Pipelines", "Noisy Layout OCR Engines", "OpenCV Preprocessing Sub-routines"]
+    },
+    {
+      "id": "planet-spark",
+      "organization": "PlanetSpark",
+      "role": "Business Operations & Data Analyst",
+      "timeline": "June 2025 - Dec 2025",
+      "responsibilities": [
+        "Analyzed user engagement data to identify behavioral trends and improve retention strategies.",
+        "Delivered data-driven insights that enhanced decision-making and operational efficiency.",
+        "Translated business problems into structured analytical solutions."
+      ],
+      "technologies": ["User Engagement Analytics", "Operational Insights Data Reporting", "Analytical Modeling"]
+    }
+  ],
+  "education_history": [
+    {
+      "institution": "Shri Ramswaroop Memorial University",
+      "degree": "Bachelor of Computer Application (BCA)",
+      "timeline": "2022 - 2025",
+      "performance_metric": "CGPA: 8.12 / 10"
+    }
+  ],
+  "certifications": [
+    "Generative AI with LLMs | Coursera",
+    "Computer Vision & Image Processing | IBM via Coursera",
+    "Computer Vision with OpenCV | Udemy",
+    "Computer Vision with PyTorch & YOLO | Udemy"
+  ]
+}

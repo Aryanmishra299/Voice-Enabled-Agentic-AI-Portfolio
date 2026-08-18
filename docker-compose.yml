@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  # --- ASYNCHRONOUS PYTHON FASTAPI ENGINE CORE SERVICE ---
+  backend-engine:
+    build:
+      context: ./backend-engine
+      dockerfile: Dockerfile
+    container_name: portfolio_backend_core
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY} # Securely routes your host machine terminal key from environment variables
+      - ENVIRONMENT=production
+    volumes:
+      - ./data-store:/data-store # Dynamic persistent mapping volume - Enables real-time JSON edits live!
+    restart: always
+
+  # --- PRESENTATION INTERACTIVE CANVASES DASHBOARD NEXTJS ---
+  frontend-client:
+    build:
+      context: ./frontend-client
+      dockerfile: Dockerfile
+    container_name: portfolio_frontend_canvas
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_BACKEND_URL=http://localhost:8000
+    depends_on:
+      - backend-engine # Enforces that API network gates must boot completely before client compiles
+    restart: always

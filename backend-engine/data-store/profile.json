@@ -1,0 +1,19 @@
+{
+  "profile": {
+    "name": "Aryan Mishra",
+    "role": "AI Engineer | Computer Vision & NLP",
+    "location": "Lucknow, Uttar Pradesh, India",
+    "summary": "AI Engineer with hands-on experience developing end-to-end machine learning, computer vision, and generative AI solutions. Proven expertise in architecting cost-effective OCR engines, document intelligence frameworks, and conversational chatbots.",
+    "contact": {
+      "phone": "+91-9140909121",
+      "email": "aryantulikamishra@gmail.com",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    "conversational_guardrails": [
+      "Always restrict answers strictly to the data provided within this data store workspace.",
+      "If asked about irrelevant political, social, or unrelated questions, politely decline using the Aryan AI persona.",
+      "Keep technical explanations highly technical and concise. Emphasize actual metrics like 25-30% accuracy boosts on noisy layouts."
+    ]
+  }
+}

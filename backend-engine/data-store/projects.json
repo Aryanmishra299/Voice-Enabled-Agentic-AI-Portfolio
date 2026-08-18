@@ -1,0 +1,104 @@
+{
+  "projects": [
+    {
+      "id": "intelligent-ocr-idp",
+      "name": "Intelligent OCR & Document Processing System",
+      "category": "Computer Vision",
+      "short_summary": "An end-to-end OCR pipeline engineered to process low-quality documents and extract structured textual details.",
+      "technologies": ["Python", "OpenCV", "PaddleOCR"],
+      "engineering_solution": "Applied advanced image preprocessing configurations with OpenCV to deskew and denoise low-res inputs before executing PaddleOCR text localization chunks.",
+      "key_highlights": [
+        "Built modular, scalable end-to-end OCR processing blocks (PDF -> Image -> Preprocessing -> OCR -> Output).",
+        "Developed custom image preprocessing sub-routines tailored specifically for heavily noisy layout formats."
+      ],
+      "quantifiable_metrics": {
+        "accuracy_gain": "Improved text extraction accuracy by ~25-30% on noisy and unformatted layout inputs."
+      },
+      "architecture_flowchart": [
+        { "node_id": "N1", "label": "PDF Parse", "layer": "Input Stream" },
+        { "node_id": "N2", "label": "Denoise & Filter", "layer": "OpenCV Engine" },
+        { "node_id": "N3", "label": "Text Extraction", "layer": "PaddleOCR Inference" }
+      ],
+      "links": {
+        "github": "https://github.com",
+        "live_demo": "https://aryanmishra.ai"
+      },
+      "routing_keywords": ["python", "ocr", "document processing", "computer vision", "opencv", "paddleocr", "noisy layouts"]
+    },
+    {
+      "id": "ai-document-assistant-rag",
+      "name": "AI Document Assistant (RAG-based GenAI System)",
+      "category": "Generative AI / NLP",
+      "short_summary": "A context-aware document Q&A application built to minimize manual search cycles through semantic index architectures.",
+      "technologies": ["Python", "OpenCV", "PaddleOCR", "LangChain", "ChromaDB", "FastAPI"],
+      "engineering_solution": "Combined PaddleOCR and OpenCV for initial document text extraction, passing parsed vectors to LangChain RAG pipes with a ChromaDB semantic backend store.",
+      "key_highlights": [
+        "Enabled context-aware conversational interactions over unformatted document files.",
+        "Deployed clean inference endpoint wrappers via FastAPI architecture structures to serve real-time user prompts."
+      ],
+      "quantifiable_metrics": {
+        "efficiency_gain": "Significantly reduced manual search efforts through structured vector context injection queries."
+      },
+      "architecture_flowchart": [
+        { "node_id": "N1", "label": "OCR Extraction", "layer": "PaddleOCR + OpenCV" },
+        { "node_id": "N2", "label": "Vector Embedding", "layer": "ChromaDB Store" },
+        { "node_id": "N3", "label": "RAG Prompt Pipeline", "layer": "LangChain Orchestration" },
+        { "node_id": "N4", "label": "API Web Gateway", "layer": "FastAPI Route Endpoint" }
+      ],
+      "links": {
+        "github": "https://github.com",
+        "live_demo": "https://aryanmishra.ai"
+      },
+      "routing_keywords": ["rag", "genai", "langchain", "chromadb", "fastapi", "semantic retrieval", "document assistant"]
+    },
+    {
+      "id": "customer-churn-prediction",
+      "name": "Customer Churn Prediction Pipeline",
+      "category": "Machine Learning",
+      "short_summary": "A classical machine learning classification pipeline constructed to accurately compute user churn analytics thresholds.",
+      "technologies": ["Python", "Pandas", "NumPy", "Scikit-Learn", "Matplotlib"],
+      "engineering_solution": "Executed clean feature engineering and data preprocessing via Pandas and NumPy, routing matrix shapes to a Scikit-Learn classification wrapper.",
+      "key_highlights": [
+        "Integrated robust validation techniques and standard evaluation matrices to check predictive models stability.",
+        "Visualized feature weights and performance breakdowns using customized Matplotlib layouts."
+      ],
+      "quantifiable_metrics": {
+        "stability": "Optimized classification confidence metrics and model reliability profiles using multi-fold validation checks."
+      },
+      "architecture_flowchart": [
+        { "node_id": "N1", "label": "Data Preprocessing", "layer": "Pandas & NumPy Arrays" },
+        { "node_id": "N2", "label": "ML Classification Pipeline", "layer": "Scikit-Learn Model Engine" },
+        { "node_id": "N3", "label": "Metrics Rendering", "layer": "Matplotlib Analytics Dashboard" }
+      ],
+      "links": {
+        "github": "https://github.com",
+        "live_demo": "https://aryanmishra.ai"
+      },
+      "routing_keywords": ["scikit-learn", "pandas", "numpy", "classification", "machine learning", "churn prediction"]
+    },
+    {
+      "id": "ai-model-api-deployment",
+      "name": "AI Model API Deployment Engine",
+      "category": "MLOps / Backend",
+      "short_summary": "A reusable backend server infrastructure built to wrap model parameters inside production APIs.",
+      "technologies": ["Python", "FastAPI"],
+      "engineering_solution": "Constructed asynchronous FastAPI gateways processing structured JSON tokens for instant inference processing integration layers.",
+      "key_highlights": [
+        "Designed scalable network endpoints optimized for low-latency operational cycles.",
+        "Structured reusable backend code workflows to streamline future model integrations."
+      ],
+      "quantifiable_metrics": {
+        "concurrency": "Enables robust real-time inference processing hooks across decoupled frontend system endpoints."
+      },
+      "architecture_flowchart": [
+        { "node_id": "N1", "label": "Model Checkpoint Loads", "layer": "Python Core Runtime" },
+        { "node_id": "N2", "label": "Async Route Bindings", "layer": "FastAPI Web Core Gateway" }
+      ],
+      "links": {
+        "github": "https://github.com",
+        "live_demo": "https://aryanmishra.ai"
+      },
+      "routing_keywords": ["fastapi", "api deployment", "real-time inference", "backend workflows", "mlops"]
+    }
+  ]
+}
