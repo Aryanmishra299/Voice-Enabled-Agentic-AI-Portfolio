@@ -19,12 +19,10 @@ app = FastAPI(
 # 🛡️ M08 PRODUCTION CORS GUARD POLICY: WHITELIST ACCESS SEGREGATION
 # ──────────────────────────────────────────────────────────────────
 ALLOWED_PRODUCTION_ORIGINS = [
-    "http://localhost:3000",       
+    "http://localhost:3000",
     "http://127.0.0.1:3000",
-    # 🔥 INJECTED GLOBAL DOMAIN: Allows your live Vercel dashboard browser canvas to safely handshake with the API!
-    "https://vercel.app"
+    "https://voice-enabled-agentic-ai-portfolio-ten.vercel.app",
 ]
-
 
 app.add_middleware(
     CORSMiddleware,
