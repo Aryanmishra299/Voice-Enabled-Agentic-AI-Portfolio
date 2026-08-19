@@ -15,11 +15,16 @@ app = FastAPI(
 # 🛡️ M08 PRODUCTION CORS GUARD POLICY: WHITELIST ACCESS SEGREGATION
 # ──────────────────────────────────────────────────────────────────
 # Hardening the origin arrays. Replaces loose open configuration boundaries.
+# ──────────────────────────────────────────────────────────────────
+# 🛡️ M08 PRODUCTION CORS GUARD POLICY: WHITELIST ACCESS SEGREGATION
+# ──────────────────────────────────────────────────────────────────
 ALLOWED_PRODUCTION_ORIGINS = [
-    "http://localhost:3000",       # Primary local Next.js client development portal
-    "http://127.0.0.1:3000"        # Alternative loopback binding network interface socket
-    # Note: Global production URL strings (e.g. Vercel deployment link) will be appended here in M10.
+    "http://localhost:3000",       
+    "http://127.0.0.1:3000",
+    # 🔥 INJECTED GLOBAL DOMAIN: Allows your live Vercel dashboard browser canvas to safely handshake with the API!
+    "https://vercel.app"
 ]
+
 
 app.add_middleware(
     CORSMiddleware,
