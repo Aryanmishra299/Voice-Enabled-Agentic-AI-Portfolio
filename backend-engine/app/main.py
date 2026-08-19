@@ -23,6 +23,7 @@ ALLOWED_PRODUCTION_ORIGINS = [
     "http://127.0.0.1:3000",
     "https://voice-enabled-agentic-ai-portfolio-ten.vercel.app",
     "https://voice-enabled-agentic-ai-portfolio-vew9-jer6gdvwj-aryan-mishra.vercel.app",
+    "https://voice-enabled-agentic-ai-portfolio-vew9-git-main-aryan-mishra.vercel.app"
 ]
 
 app.add_middleware(
